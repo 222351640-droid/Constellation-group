@@ -1,5 +1,6 @@
 "use client";
 import Sidebar from "@/components/Sidebar";
+import RightSidebar from "@/components/RightSideBar";
 
 export default function RootLayout({
   children,
@@ -10,7 +11,10 @@ export default function RootLayout({
   return (
     <main className="flex h-screen w-full font-inter">
       <Sidebar />
-      {children}
+      <div className="flex-1 flex">
+        {children}
+        <RightSidebar />
+      </div>
     </main>
   );
 }
