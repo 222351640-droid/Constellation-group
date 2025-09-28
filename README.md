@@ -1,21 +1,36 @@
-# AI-Powered Energy Theft and Leak Detection System
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-📌 Project Overview
+## Getting Started
 
-This project introduces an AI solution to detect electricity theft and oil/gas pipeline leaks in the energy sector. The system uses machine learning for anomaly detection, deep learning for drone imagery analysis, and natural language processing for chatbot interaction. It supports municipalities and energy companies by reducing losses, improving safety, and enhancing service delivery in line with the 4th Industrial Revolution (4IR).
+First, run the development server:
 
-🎯 Problem Statement
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Energy theft and pipeline leaks cause billions in losses, frequent outages, and safety hazards in developing regions. Traditional monitoring systems are slow, reactive, and inefficient. This project provides a proactive AI-powered solution that automatically detects theft and leaks in real-time.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-🎯 Objectives
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Detect energy theft and pipeline leaks proactively using AI.
-Support municipalities with accurate, real-time alerts.
-Improve infrastructure safety and reduce operational costs.
-Engage communities through an AI-powered chatbot.
+## Learn More
 
-🛠️ Tools & Technologies
+To learn more about Next.js, take a look at the following resources:
 
-Python – core programming language
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
